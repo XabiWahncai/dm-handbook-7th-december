@@ -19,7 +19,7 @@ export const HeroOverview = ({ onNavigate }: HeroOverviewProps) => {
           <div className="lg:col-span-5 flex justify-center">
             <div className="relative group max-w-[240px] sm:max-w-[280px] rounded-2xl overflow-hidden shadow-2xl ring-1 ring-zinc-700/60">
               <img
-                src="/cover.jpg"
+                src={`${import.meta.env.BASE_URL}cover.jpg`}
                 alt="The Secret of 7th December - DM Handbook"
                 className="w-full h-auto object-cover transform group-hover:scale-[1.02] transition-transform duration-500"
               />

@@ -139,7 +139,7 @@ export const BGMController = () => {
 
             <div className="bg-white p-3 rounded-2xl inline-block shadow-inner mx-auto mb-4 border border-zinc-700">
               <img
-                src={selectedQR === 'piano' ? '/qr_piano.png' : '/qr_ink.png'}
+                src={selectedQR === 'piano' ? `${import.meta.env.BASE_URL}qr_piano.png` : `${import.meta.env.BASE_URL}qr_ink.png`}
                 alt="QR Code"
                 className="w-44 h-44 object-contain"
               />
